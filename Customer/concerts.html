@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script1.js"></script>
+    
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Creative Planner</h1>
+    </header>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>  
+
+<div id="demo">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Welcome!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Events
+                    </a>
+                    <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="festivals.html">Festivals</a>
+                        <a class="dropdown-item" href="concerts.html">Concerts<span class="sr-only">(current)</span></a>
+                        <a class="dropdown-item" href="#">Classes and Workshops</a>
+                        <a class="dropdown-item" href="collegefests.html">College Fests</a>
+                        <a class="dropdown-item" href="#">Online EVents</a>   
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    </div>
+
+    <div class="container" style="margin-top: 50px ;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?newyear"
+                        alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?holi"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://source.unsplash.com/1400x500/?diwali" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div>
+        <h1 style=" color: white;
+        display : block;
+        text-align: center;
+        margin: 25px;
+        padding: 10px;"> Upcoming Concerts </h1>
+    </div>
+
+    <div class="container my-10" style="margin-top: 100px ;">
+        <div class="card-deck">
+            <div class="card text-white bg-dark">
+                <img class="card-img-top" src="https://source.unsplash.com/400x200/?college party" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Renaissance 2022</h5>
+                    <p class="card-text"><strong>Date: </strong>6th October 2022</p>
+                    <p class="card-text"><strong>Organizer: </strong>KJ Somaiya Institute of Engineering and Information Technology</p>
+                    <p class="card-text"><strong>Location: </strong>Mumbai</p>
+                    <button type="button" onclick = "location.href = ''" class="btn btn-outline-success">Register</button>
+                </div>
+            </div>
+            <div class="card text-white bg-dark">
+                <img class="card-img-top" src="https://source.unsplash.com/400x200/?concert" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Justin Bieber</h5>
+                    <p class="card-text"><strong>Date: </strong>28th October 2022</p>
+                    <p class="card-text"><strong>Organizer: </strong>A1events</p>
+                    <p class="card-text"><strong>Location:: </strong>Taj grounds, Delhi</p>
+                    <p class="card-text"><strong>Price: </strong>Rs 5000</p>
+                    <button type="button" onclick = "location.href = ''" class="btn btn-outline-success">Register</button>
+                </div>
+            </div>
+            <div class="card text-white bg-dark">
+                <img class="card-img-top" src="https://source.unsplash.com/400x200/?singer" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Taylor Swift</h5>
+                    <p class="card-text"><strong>Date: </strong>8th October 2022</p>
+                    <p class="card-text"><strong>Organizer: </strong>CSE Studios</p>
+                    <p class="card-text"><strong>Location: </strong>Chennai</p>
+                    <p class="card-text"><strong>Price: </strong>Rs 4000</p>
+                    <button type="button" onclick = "location.href = '...';"class="btn btn-outline-success">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+            
+        <div class="card mx-5" style="padding: 2% 7%;
+        color: #646771;
+        background-color: #16151a;">
+            <div class="row mb-4 ">
+                
+                <div class="col-md-4 col-sm-11 col-xs-11">
+                    <div class="footer-text pull-left">
+                         <div class="d-flex">
+                             <h1 class="font-weight-bold mr-2 px-3" style="color:#16151a; background-color:#957bda" > T </h1>
+                             <h1 style="color: #957bda">Devs</h1>
+                         </div>
+                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi non pariatur numquam animi nam at impedit odit nisi.</p>
+
+                         <div class="social mt-2 mb-3">
+
+                            <i class="fa fa-facebook-official fa-lg" ></i>
+                            <i class="fa fa-instagram fa-lg"></i>
+                            <i class="fa fa-twitter fa-lg"></i>
+                            <i class="fa fa-linkedin-square fa-lg"></i>
+                            <i class="fa fa-facebook"></i>
+
+                         </div>
+                     
+                     </div>
+                </div>
+                
+                
+                <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+                
+                <div class="col-md-2 col-sm-4 col-xs-4">
+             
+                    <h5 class="heading">Services</h5>
+                    <ul >
+                        <li>Virtual Events</li>
+                        <li>Webinars</li>
+                        <li>Cultural Events</li>
+                        <li>Wedding planner</li>
+                        <li>Party</li>
+                    </ul>
+             
+                </div>
+             
+             
+                <div class="col-md-2 col-sm-4 col-xs-4">
+             
+                    <h5 class="heading">Connect with us</h5>
+                    <ul class="card-text">
+                        <li>Facebook</li>
+                        <li>LinkedIn</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+             
+                </div>
+
+             
+                 <div class="col-md-2 col-sm-4 col-xs-4">
+
+                    <h5 class="heading">Company</h5>
+                    <ul class="card-text">
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                        <li>Join Us</li>
+                    </ul>
+
+                 </div>
+
+            </div>
+            
+            
+            <div class="divider mb-4" >   
+            </div>
+
+           
+            <div class="row" style="font-size:10px;">
+            
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                
+                <div class="pull-left">
+                    
+                    <p><i class="fa fa-copyright"></i> 2020 thezpdesign</p>
+                    
+                </div>
+                
+            </div>
+            
+            
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
+               
+               
+                <div class="pull-right mr-4 d-flex policy">
+                    
+                   <div>Terms of Use</div>
+                   <div>Privacy Policy</div>
+                   <div>Cookie Policy</div>
+                    
+                </div>
+                
+                
+                
+            </div>
+             
+             
+             
+         </div>
+        </div>
+        
+    </div>
+
+</html>
+
